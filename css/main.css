@@ -1219,17 +1219,20 @@ a:focus {
     transition: background-color 0.3s linear 0s, padding 0.3s linear 0s;
 }
 
-  @media (min-width: 768px) {
+  @media (min-width: 968px) {
     .brand-logo {
       padding-left: 10% !important;
     }
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 968px) {
     #list {
       padding-right: 10% !important;
+
     }
+
   }
+
 
 .side-nav{
   background-color: #064;
@@ -1237,4 +1240,10 @@ a:focus {
 
 #eventapp{
   width: 100%;
+}
+@media (max-width: 450px) {
+  nav ul a {
+    font-size: 10.5px !important;
+
+  }
 }
