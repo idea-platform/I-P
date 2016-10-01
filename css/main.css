@@ -1243,7 +1243,7 @@ a:focus {
 }
 @media (max-width: 475px) {
   nav ul a {
-    font-size: 9px !important;
+    font-size: 9.45px !important;
 
   }
 }
