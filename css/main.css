@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:700,400,100);
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #666;
@@ -1218,7 +1219,15 @@ a:focus {
 
     transition: background-color 0.3s linear 0s, padding 0.3s linear 0s;
 }
+@media (max-width: 350px) {
+  #pagetop{
+    margin-top: -30%;
+      box-shadow: none !important;
+      background-color: transparent;
 
+      transition: background-color 0.3s linear 0s, padding 0.3s linear 0s;
+    }
+}
   @media (min-width: 968px) {
     .brand-logo {
       padding-left: 10% !important;
