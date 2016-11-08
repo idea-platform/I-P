@@ -4,12 +4,7 @@
   <head>
   	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-    <script src="js/app.js" type="text/javascript"></script>
-    <script src="js/maincontroller.js" type="text/javascript"></script>
-
 		<title>Idea Platform - Sponsors</title>
-
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome CSS -->
@@ -31,7 +26,7 @@
 
   <body>
 
-    <div id='content' ng-app="myApp" ng-controller="MainController">
+
   	<div class="content-wrap">
      <header class="mentors" id="home">
 
@@ -99,21 +94,58 @@
 
         </div>
         <div class="row">
-          <div ng-repeat = "p in rowOne"class="col-xs-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <div class="col-xs-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="client-item-wrapper">
-              <img ng-style="p.style" ng-src="{{p.image}}" />
 
+              <a href="https://wordpress.uprm.edu/eship/"> <img id="eship" src="img/eship.png" /></a>
             </div>
-          </div>
+         </div>
+         <div class="col-xs-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+           <div class="client-item-wrapper">
+
+               <img id="sunne" src="img/sunne.png" />
+           </div>
         </div>
+        <div class="col-xs-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <div class="client-item-wrapper">
+
+              <img id="h3" src="img/h3-conference.png" />
+          </div>
+       </div>
+       <div class="col-xs-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+         <div class="client-item-wrapper">
+
+             <img id="enfoque" src="img/enfoque.png" />
+         </div>
+      </div>
+        </div>
+
         <div class="row">
-          <div ng-repeat = "p in rowTwo"class="col-xs-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <div class="col-xs-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="client-item-wrapper">
-              <img ng-style="p.style" ng-src="{{p.image}}" />
 
+                <img id="yiftee" src="img/yiftee.png" />
             </div>
-          </div>
+         </div>
+         <div class="col-xs-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+           <div class="client-item-wrapper">
+
+               <img id="spotery" src="img/spotery.png" />
+           </div>
         </div>
+        <div class="col-xs-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <div class="client-item-wrapper">
+
+              <img id="inprende" src="img/inprende.png" />
+          </div>
+       </div>
+       <div class="col-xs-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+         <div class="client-item-wrapper">
+
+             <img id="arranca" src="img/arranca.png" />
+         </div>
+      </div>
+      </div>
       </div>
     </section>
 
@@ -168,7 +200,38 @@
 
 
 
-     <footer></footer>
+    <section id="copyright">
+      <div class="container">
+        <center>
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Contact Us</h5>
+            <p class="copyright-text">
+              idea.platform@uprm.edu <br></br>
+            <i class="material-icons">mail</i>
+            </p>
+          </div>
+          <div class="col-md-4">
+              <h5>Address</h5>
+              <p class="copyright-text">University of Puerto Rico, Mayagüez</p>
+              <p class="copyright-text">Student Center, First Floor</p>
+
+
+          </div>
+
+          <div class="col-md-4">
+              <h5>Find us on</h5>
+              <a class="social" href="https://www.facebook.com/IdeaPlatformPR/" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a class="social" href="https://www.youtube.com/channel/UCGqWjw3iZwTVrORZqVt-o4w" target="_blank"><i class="fa fa-youtube-play"></i></a>
+
+
+          </div>
+
+        </div>
+      </center>
+      </div>
+    </section>
+
 
     </div>
 

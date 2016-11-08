@@ -219,7 +219,7 @@ a:focus {
   }
 }
 .hero-area {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/workspace.jpeg) no-repeat;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/ip-group.jpeg) no-repeat;
   background-size: cover;
   background-position: center bottom;
   color: #fff;
@@ -1255,4 +1255,38 @@ a:focus {
     font-size: 9.45px !important;
 
   }
+}
+
+#enfoque{
+  width : 100%;
+}
+
+#eship{
+  width : 70%;
+}
+
+#sunne{
+  width : 100%;
+}
+
+#arranca{
+  width : 70%;
+}
+
+#yiftee{
+  width : 100%;
+  padding-top : 25%;
+}
+
+#h3{
+  width : 100%;
+}
+
+#spotery{
+  padding-top : 30%;
+  width : 105%;
+}
+
+#inprende{
+  width : 100%;
 }
