@@ -297,7 +297,7 @@ a:focus {
   margin: 15px;
 }
 
-.achieve {
+.achieve{
   background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ),url(../img/working.jpeg) no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -305,6 +305,7 @@ a:focus {
 
   padding: 90px 0;
 }
+
 .achieve .sticky-navigation {
   background: transparent;
 }
@@ -321,6 +322,31 @@ a:focus {
   margin: 15px;
 }
 
+.starting {
+  background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ),url(../img/starting-point.jpg) no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  color: #fff;
+  padding: 90px 0;
+}
+
+.starting .sticky-navigation {
+  background: transparent;
+}
+
+.starting .contents h1 {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.starting .contents p {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.starting .contents .btn {
+  margin: 15px;
+}
 .empowered {
   background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ),url(../img/hardware.jpeg) no-repeat;
   background-size: cover;
@@ -419,6 +445,15 @@ a:focus {
     padding: 15% 0;
   }
   .achieve h1 {
+    font-size: 50px !important;
+  }
+}
+
+@media (min-width: 400px) {
+  .starting {
+    padding: 15% 0;
+  }
+  .starting h1 {
     font-size: 50px !important;
   }
 }
